@@ -52,9 +52,12 @@ INSTALLED_APPS = [
     'rest_framework',
     'drf_yasg',
     'django_extensions',
+    # 'corsheaders',
 ]
 
 MIDDLEWARE = [
+    # 'corsheaders.middleware.CorsMiddleware',
+    # 'django.middleware.common.CommonMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -133,3 +136,9 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = '/static/'
+
+CORS_ORIGIN_ALLOW_ALL = False
+CORS_ORIGIN_WHITELIST = (
+    'http://localhost:8080',  # vue.js port 번호를 입력해주시면 됩니다.
+    'http://127.0.0.1:8080'
+)
