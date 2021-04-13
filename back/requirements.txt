@@ -1,7 +1,5 @@
-Django  # Django
-djangorestframework  # Django REST API Server
-drf-yasg  # swagger API 명세를 작성할 수 있다.
-django-extensions  # shell_plus 와 같은 편리한 기능을 제공해준다.
-
-
-# pip install -r requirements.txt
+Django
+djangorestframework
+drf-yasg
+django-extensions
+ipython
