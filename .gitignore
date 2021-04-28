@@ -1,7 +1,1 @@
-<<<<<<< HEAD
-back/secrets.json
-.idea
-=======
-./back/secrets.json
-.idea/*
->>>>>>> 0f338883db3619944ef260446f1adecee9daa2cd
+drf-study
