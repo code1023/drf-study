@@ -48,6 +48,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     # apps
     'todo',
+    'testapp',
 
     'rest_framework',
     'drf_yasg',
